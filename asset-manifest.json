@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/vendi/static/css/main.048fa354.chunk.css",
+    "main.js": "/vendi/static/js/main.1deccfc4.chunk.js",
+    "main.js.map": "/vendi/static/js/main.1deccfc4.chunk.js.map",
+    "runtime-main.js": "/vendi/static/js/runtime-main.0ac4eabc.js",
+    "runtime-main.js.map": "/vendi/static/js/runtime-main.0ac4eabc.js.map",
+    "static/js/2.45b10650.chunk.js": "/vendi/static/js/2.45b10650.chunk.js",
+    "static/js/2.45b10650.chunk.js.map": "/vendi/static/js/2.45b10650.chunk.js.map",
+    "static/js/3.ca2872a3.chunk.js": "/vendi/static/js/3.ca2872a3.chunk.js",
+    "static/js/3.ca2872a3.chunk.js.map": "/vendi/static/js/3.ca2872a3.chunk.js.map",
+    "index.html": "/vendi/index.html",
+    "static/css/main.048fa354.chunk.css.map": "/vendi/static/css/main.048fa354.chunk.css.map",
+    "static/js/2.45b10650.chunk.js.LICENSE.txt": "/vendi/static/js/2.45b10650.chunk.js.LICENSE.txt",
+    "static/media/google.323574c7.jpg": "/vendi/static/media/google.323574c7.jpg",
+    "static/media/logo.057b7f94.png": "/vendi/static/media/logo.057b7f94.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ac4eabc.js",
+    "static/js/2.45b10650.chunk.js",
+    "static/css/main.048fa354.chunk.css",
+    "static/js/main.1deccfc4.chunk.js"
+  ]
+}
