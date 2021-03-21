@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+.splashContainer {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.splashContainer img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: -200px;
+}
+
+.splashContainer h2 {
+    font-family: 'Reggae One', cursive;
+    font-size: 2rem;
+}
+
+.splashContainer p {
+    margin-top: -280px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 1.3rem;
+}

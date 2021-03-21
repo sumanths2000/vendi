@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+.sidebar {
+    position: fixed;
+    width: -100vw;
+    overflow: hidden;
+    z-index: 20;
+    height: 100vh;
+    background-color: rgba(0, 0, 255, .8);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    left: 0;
+    transition: all 1s ease;
+}
+
+.showSidebar {
+    display: flex;
+    z-index: 20;
+    width: 300px;
+}
+
+.link {
+    font-size: 1.5rem;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    text-align: center;
+    font-family: 'Reggae One', cursive;
+    margin-bottom: 20px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    transition: all .3s ease-in;
+}
+
+.activeLink {
+    background-color: blue;
+}
+
+.link:hover {
+    background-color: blue;
+}
+
+.close {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.closeIcon {
+    font-size: 1.5rem;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: red;
+    opacity: .8;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.closeIcon:hover {
+    opacity: 1;
+}
+
+.username {
+    width: 100%;
+    padding-left: 10px;
+    color: white;
+    margin-bottom: 40px;
+    text-align: left;
+    font-weight: 200;
+}
+
+.username h2:nth-of-type(2) {
+    font-family: 'Reggae One', cursive;
+    font-style: italic;
+    margin-left: 40px;
+}
+
+.sidebarLogo {
+    width: 70px;
+    z-index: 10;
+    background-color: white;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
